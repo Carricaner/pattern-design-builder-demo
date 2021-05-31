@@ -1,58 +1,49 @@
 package After.Method1;
 
 public class House {
-    private Integer windows;
-    private Integer doors;
-    private Integer toilets;
-    private Float area;
-    private Integer floors;
-    private Boolean onSale;
+    private String name;
+    private Integer price;
+    private Integer rooms;
+    private String location;
+    private String description;
 
-    public Integer getWindows() {
-        return windows;
+    public String getName() {
+        return name;
     }
 
-    public void setWindows(Integer windows) {
-        this.windows = windows;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public Integer getDoors() {
-        return doors;
+    public Integer getPrice() {
+        return price;
     }
 
-    public void setDoors(Integer doors) {
-        this.doors = doors;
+    public void setPrice(Integer price) {
+        this.price = price;
     }
 
-    public Integer getToilets() {
-        return toilets;
+    public Integer getRooms() {
+        return rooms;
     }
 
-    public void setToilets(Integer toilets) {
-        this.toilets = toilets;
+    public void setRooms(Integer rooms) {
+        this.rooms = rooms;
     }
 
-    public Float getArea() {
-        return area;
+    public String getLocation() {
+        return location;
     }
 
-    public void setArea(Float area) {
-        this.area = area;
+    public void setLocation(String location) {
+        this.location = location;
     }
 
-    public Integer getFloors() {
-        return floors;
+    public String getDescription() {
+        return description;
     }
 
-    public void setFloors(Integer floors) {
-        this.floors = floors;
-    }
-
-    public Boolean getOnSale() {
-        return onSale;
-    }
-
-    public void setOnSale(Boolean onSale) {
-        this.onSale = onSale;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

@@ -2,45 +2,40 @@ package After.Method1;
 
 class PalaceBuilder implements HouseBuilder {
     private Palace _palace;
-    private Integer windows;
-    private Integer doors;
-    private Integer toilets;
-    private Float area;
-    private Integer floors;
-    private Boolean onSale;
+    private String name;
+    private Integer price;
+    private Integer rooms;
+    private String location;
+    private String description;
 
+    @Override
     public void reset() {
         _palace = new Palace();
+    };
+
+    @Override
+    public void setName(String name) {
+        _palace.setName(name);
     }
 
     @Override
-    public void setWindows(Integer windows) {
-        _palace.setWindows(windows);
+    public void setPrice(Integer price) {
+        _palace.setPrice(price);
     }
 
     @Override
-    public void setDoors(Integer doors) {
-        _palace.setDoors(doors);
+    public void setRooms(Integer rooms) {
+        _palace.setRooms(rooms);
     }
 
     @Override
-    public void setToilets(Integer toilets) {
-        _palace.setToilets(toilets);
+    public void setLocation(String location) {
+        _palace.setLocation(location);
     }
 
     @Override
-    public void setArea(Float area) {
-        _palace.setArea(area);
-    }
-
-    @Override
-    public void setFloors(Integer floors) {
-        _palace.setFloors(floors);
-    }
-
-    @Override
-    public void setOnSale(Boolean onSale) {
-        _palace.setOnSale(onSale);
+    public void setDescription(String description) {
+        _palace.setDescription(description);
     }
 
     public Palace build() {

@@ -2,45 +2,40 @@ package After.Method1;
 
 class CastleBuilder implements HouseBuilder {
     private Castle _castle;
-    private Integer windows;
-    private Integer doors;
-    private Integer toilets;
-    private Float area;
-    private Integer floors;
-    private Boolean onSale;
+    private String name;
+    private Integer price;
+    private Integer rooms;
+    private String location;
+    private String description;
 
+    @Override
     public void reset() {
         _castle = new Castle();
+    };
+
+    @Override
+    public void setName(String name) {
+        _castle.setName(name);
     }
 
     @Override
-    public void setWindows(Integer windows) {
-        _castle.setWindows(windows);
+    public void setPrice(Integer price) {
+        _castle.setPrice(price);
     }
 
     @Override
-    public void setDoors(Integer doors) {
-        _castle.setDoors(doors);
+    public void setRooms(Integer rooms) {
+        _castle.setRooms(rooms);
     }
 
     @Override
-    public void setToilets(Integer toilets) {
-        _castle.setToilets(toilets);
+    public void setLocation(String location) {
+        _castle.setLocation(location);
     }
 
     @Override
-    public void setArea(Float area) {
-        _castle.setArea(area);
-    }
-
-    @Override
-    public void setFloors(Integer floors) {
-        _castle.setFloors(floors);
-    }
-
-    @Override
-    public void setOnSale(Boolean onSale) {
-        _castle.setOnSale(onSale);
+    public void setDescription(String description) {
+        _castle.setDescription(description);
     }
 
     public Castle build() {

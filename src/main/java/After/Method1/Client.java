@@ -6,6 +6,11 @@ public class Client {
         CastleBuilder castleBuilder = new CastleBuilder();
         houseDirector.buildCastle(castleBuilder);
         Castle castle = castleBuilder.build();
-        System.out.println(castle.getArea());
+        castle.showDetails();
+
+        PalaceBuilder palaceBuilder = new PalaceBuilder();
+        houseDirector.buildPalace(palaceBuilder);
+        Palace palace = palaceBuilder.build();
+        palace.showDetails();
     }
 }
