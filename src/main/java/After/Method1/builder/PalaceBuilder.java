@@ -1,6 +1,8 @@
-package After.Method1;
+package After.Method1.builder;
 
-class PalaceBuilder implements HouseBuilder {
+import After.Method1.product.Palace;
+
+public class PalaceBuilder implements HouseBuilder {
     private Palace _palace;
 
     @Override

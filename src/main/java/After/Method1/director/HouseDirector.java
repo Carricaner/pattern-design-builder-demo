@@ -1,4 +1,6 @@
-package After.Method1;
+package After.Method1.director;
+
+import After.Method1.builder.HouseBuilder;
 
 public class HouseDirector {
 

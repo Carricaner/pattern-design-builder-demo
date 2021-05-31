@@ -1,6 +1,8 @@
-package After.Method2;
+package After.Method2.builder;
 
-class CastleBuilder implements HouseBuilder {
+import After.Method2.product.Castle;
+
+public class CastleBuilder implements HouseBuilder {
     private Castle _castle;
     private Integer guardians = 10;
     private Integer servants = 5;

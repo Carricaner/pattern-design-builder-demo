@@ -1,5 +1,11 @@
 package After.Method1;
 
+import After.Method1.builder.CastleBuilder;
+import After.Method1.builder.PalaceBuilder;
+import After.Method1.director.HouseDirector;
+import After.Method1.product.Castle;
+import After.Method1.product.Palace;
+
 public class Client {
     public static void main(String[] args) {
         // new 一個工頭名為 Tom

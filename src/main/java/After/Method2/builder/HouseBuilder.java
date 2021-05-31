@@ -1,4 +1,4 @@
-package After.Method2;
+package After.Method2.builder;
 
 public interface HouseBuilder {
     HouseBuilder reset();

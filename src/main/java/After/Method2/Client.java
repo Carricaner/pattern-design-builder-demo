@@ -1,5 +1,10 @@
 package After.Method2;
 
+import After.Method2.builder.PalaceBuilder;
+import After.Method2.builder.CastleBuilder;
+import After.Method2.product.Castle;
+import After.Method2.product.Palace;
+
 public class Client {
     public static void main(String[] args) {
         Castle castle = new CastleBuilder()

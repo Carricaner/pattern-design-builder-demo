@@ -1,9 +1,10 @@
-package After.Method2;
+package After.Method1.product;
 
 public class Palace extends House {
+
     public Palace() {}
-    private Integer sportCars;
-    private Integer horses;
+    private Integer sportCars = 6;
+    private Integer horses = 10;
 
     public void showDetails() {
         System.out.println("The Palace name: " + this.getName());
@@ -19,15 +20,7 @@ public class Palace extends House {
         return sportCars;
     }
 
-    public void setSportCars(Integer sportCars) {
-        this.sportCars = sportCars;
-    }
-
     public Integer getHorses() {
         return horses;
-    }
-
-    public void setHorses(Integer horses) {
-        this.horses = horses;
     }
 }

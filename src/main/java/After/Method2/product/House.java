@@ -1,4 +1,4 @@
-package After.Method2;
+package After.Method2.product;
 
 public class House {
     private String name;

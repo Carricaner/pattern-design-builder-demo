@@ -1,6 +1,8 @@
-package After.Method2;
+package After.Method2.builder;
 
-class PalaceBuilder implements HouseBuilder {
+import After.Method2.product.Palace;
+
+public class PalaceBuilder implements HouseBuilder {
     private Palace _palace;
     private Integer sportCars = 6;
     private Integer horses = 10;
