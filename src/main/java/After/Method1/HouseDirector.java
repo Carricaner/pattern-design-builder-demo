@@ -1,7 +1,5 @@
 package After.Method1;
 
-import java.util.Locale;
-
 public class HouseDirector {
 
     public void buildCastle(HouseBuilder houseBuilder) {
