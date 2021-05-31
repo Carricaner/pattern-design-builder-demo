@@ -2,11 +2,6 @@ package After.Method1;
 
 class CastleBuilder implements HouseBuilder {
     private Castle _castle;
-    private String name;
-    private Integer price;
-    private Integer rooms;
-    private String location;
-    private String description;
 
     @Override
     public void reset() {
