@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>demo</groupId>
-    <artifactId>pattern-design-builder-demo</artifactId>
+    <artifactId>pattern-design-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

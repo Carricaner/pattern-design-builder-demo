@@ -1,6 +1,6 @@
-package After.Method1.builder;
+package builder.After.Method1.builder;
 
-import After.Method1.product.Palace;
+import builder.After.Method1.product.Palace;
 
 public class PalaceBuilder implements HouseBuilder {
     private Palace _palace;

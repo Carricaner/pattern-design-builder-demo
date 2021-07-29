@@ -1,11 +1,13 @@
-# Design pattern -- Builder
 
+
+
+### Builder
 You can use Maven to build the project as well as the simple execution in desired IDE.
 * All java files are in `src/main/java`
 * In `src/main/java`, there are two folders:
-    * `Before` folder is to contain the code w/o Builder design
-    * `After` folder is to contain the code w/ Builder design
-* `Method1` & `Method2` in `After` folder are for the methods in the article respectively.
+    * `builder.Before` folder is to contain the code w/o Builder design
+    * `builder.After` folder is to contain the code w/ Builder design
+* `Method1` & `Method2` in `builder.After` folder are for the methods in the article respectively.
 
 
 Article : 進入設計模式的世界 — 『建造者模式』

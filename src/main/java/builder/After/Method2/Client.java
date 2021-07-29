@@ -1,9 +1,9 @@
-package After.Method2;
+package builder.After.Method2;
 
-import After.Method2.builder.PalaceBuilder;
-import After.Method2.builder.CastleBuilder;
-import After.Method2.product.Castle;
-import After.Method2.product.Palace;
+import builder.After.Method2.builder.PalaceBuilder;
+import builder.After.Method2.builder.CastleBuilder;
+import builder.After.Method2.product.Castle;
+import builder.After.Method2.product.Palace;
 
 public class Client {
     public static void main(String[] args) {

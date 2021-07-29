@@ -1,4 +1,4 @@
-package Before;
+package builder.Before;
 
 public class House {
     // Constructor for building a simple house

@@ -1,8 +1,8 @@
-package After.Method1.product;
+package builder.After.Method2.product;
 
-public class Castle extends House {
-    private Integer guardians = 10;
-    private Integer servants = 5;
+public class Castle extends House{
+    private Integer guardians;
+    private Integer servants;
 
     public Castle() {
 
@@ -22,7 +22,16 @@ public class Castle extends House {
         return guardians;
     }
 
+    public void setGuardians(Integer guardians) {
+        this.guardians = guardians;
+    }
+
     public Integer getServants() {
         return servants;
     }
+
+    public void setServants(Integer servants) {
+        this.servants = servants;
+    }
 }
+
