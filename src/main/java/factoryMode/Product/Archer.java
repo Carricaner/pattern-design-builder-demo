@@ -1,8 +1,6 @@
 package factoryMode.Product;
 
-import factoryMode.Product.Adventurer;
-
-public class Archer implements Adventurer {
+public class Archer extends Adventurer {
     @Override
     public String getType() {
         System.out.println("Archer here!!");

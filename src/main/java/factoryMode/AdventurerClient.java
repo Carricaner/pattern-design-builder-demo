@@ -5,7 +5,7 @@ import factoryMode.Factory.TrainingCamp;
 import factoryMode.Factory.WarriorTrainingCamp;
 import factoryMode.Product.Adventurer;
 
-public class Application {
+public class AdventurerClient {
     private static TrainingCamp trainingCamp;
     private static Adventurer adventurer;
 

@@ -4,10 +4,12 @@ import factoryMode.Product.Adventurer;
 
 public class Demo {
     public static void main(String[] args) {
-        Adventurer archer = Application.createAdventure("archer");
+        Adventurer archer = AdventurerClient.createAdventure("archer");
+        archer.display();
         System.out.println("type: " + archer.getType());
 
-        Adventurer warrior = Application.createAdventure("warrior");
+        Adventurer warrior = AdventurerClient.createAdventure("warrior");
+        warrior.display();
         System.out.println("type: " + warrior.getType());
     }
 }
