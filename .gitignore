@@ -1,3 +1,6 @@
 ## idea
 .idea/
 pattern-design-builder-demo.iml
+
+## after build
+target/
